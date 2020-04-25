@@ -1,7 +1,7 @@
 ---
 name: BurgerCustomArmor
 version: 0.0.2
-main: Heisenburger69\BurgerCustomArmor\Main
+main: CustomArmorSets\Core\Main
 api: 3.0.0
-author: Heisenburger69
+author: Heisenburger69/ updated By PlutoTheDeveloper
 ...
