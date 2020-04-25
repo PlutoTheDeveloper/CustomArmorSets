@@ -36,4 +36,4 @@ Players can be given Custom Armor Sets with the command /customarmor
 - [ ] Complex AND OR equations allowing insanely customizable abilities
 
 
-Updated By PlutoTheDevenstead of "BurgerCustomSets"
+Updated By PlutoTheDeveloper made more simple stead of "BurgerCustomSets"
