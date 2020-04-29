@@ -120,7 +120,9 @@ class Main extends PluginBase
             isset($properties["durability"]) ? $properties["durability"] : [],
             $properties["name"],
             $properties["lore"],
-            $properties["setbonuslore"]
+            $properties["setbonuslore"],
+            isset($properties["equipped-commands"]) ? $properties["equipped-commands"] : [],
+            isset($properties["unequipped-commands"]) ? $properties["unequipped-commands"] : [],
         );
 
         $this->using[$name] = [];
@@ -129,7 +131,7 @@ class Main extends PluginBase
     private function registerCustomItems(): void
     {
         $items = [
-           new LeatherCap(),
+            new LeatherCap(),
             new LeatherTunic(),
             new LeatherPants(),
             new LeatherBoots(),
