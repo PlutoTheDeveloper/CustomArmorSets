@@ -4,7 +4,6 @@ namespace CustomArmorSets\Core\Pocketmine\Chain;
 
 use CustomArmorSets\Core\ArmorSets\CustomArmorSet;
 use CustomArmorSets\Core\Main;
-use pocketmine\item\LeatherHelmet as PmLeatherHelmet;
 
 class LeatherTunic extends PmLeatherTunic
 {
