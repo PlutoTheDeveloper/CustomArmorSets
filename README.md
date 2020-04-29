@@ -34,6 +34,7 @@ Players can be given Custom Armor Sets with the command /customarmor
 - [ ] Create an API for creation and registration of Abilities and Armor Sets
 - [ ] Rainbow Armor Sets
 - [ ] Complex AND OR equations allowing insanely customizable abilities
-
-
-Updated By PlutoTheDeveloper made more simple stead of "BurgerCustomSets"
+## Showcase:
+![AssasinSet](/images/AssassinSet.png)\
+![ExampleSet](/images/ExampleSet.png)\
+![WearingAqua](/images/WearingAqua.png)
