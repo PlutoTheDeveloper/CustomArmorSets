@@ -73,7 +73,7 @@ class EventListener implements Listener
         if (!$player instanceof Player || !$damager instanceof Player) {
             return;
         }
-        if (($nbt = $player->getArmorInventory()->getHelmet()->getNamedTagEntry("burgercustomarmor")) === null) {
+        if (($nbt = $player->getArmorInventory()->getHelmet()->getNamedTagEntry("customarmorsets")) === null) {
             return;
         }
         $setName = $nbt->getValue();
@@ -109,7 +109,7 @@ class EventListener implements Listener
         $totalP = 0;
         foreach ($items as $item) {
             $itemP = $item->getDefensePoints();
-            if (($nbt = $item->getNamedTagEntry("burgercustomarmor")) !== null) {
+            if (($nbt = $item->getNamedTagEntry("customarmorset")) !== null) {
                 $armorSet = $this->plugin->customSets[$nbt->getValue()];
                 if (Utils::isHelmet($item)) {
                     $itemP = $armorSet->getHelmetDefensePoints();
@@ -136,7 +136,7 @@ class EventListener implements Listener
         if (!$player instanceof Player || !$damager instanceof Player) {
             return;
         }
-        if (($nbt = $damager->getArmorInventory()->getHelmet()->getNamedTagEntry("burgercustomarmor")) === null) {
+        if (($nbt = $damager->getArmorInventory()->getHelmet()->getNamedTagEntry("customarmorset")) === null) {
             return;
         }
         $setName = $nbt->getValue();
@@ -167,7 +167,7 @@ class EventListener implements Listener
             return;
         }
         $item = $event->getNewItem();
-        if (($nbt = $item->getNamedTagEntry("burgercustomarmor")) === null) {
+        if (($nbt = $item->getNamedTagEntry("customarmorset")) === null) {
             return;
         }
         $setName = $nbt->getValue();
@@ -203,7 +203,7 @@ class EventListener implements Listener
             return;
         }
         $item = $event->getOldItem();
-        if (($nbt = $item->getNamedTagEntry("burgercustomarmor")) === null) {
+        if (($nbt = $item->getNamedTagEntry("customarmorset")) === null) {
             return;
         }
         $setName = $nbt->getValue();
