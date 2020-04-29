@@ -1,12 +1,12 @@
 <?php
 
-namespace CustomArmorSets\Core\Pocketmine\Chain;
+namespace Heisenburger69\BurgerCustomArmor\Pocketmine\Leather;
 
-use CustomArmorSets\Core\ArmorSets\CustomArmorSet;
-use CustomArmorSets\Core\Main;
-use pocketmine\item\LeatherCap as PmLeatherCap;
+use Heisenburger69\BurgerCustomArmor\ArmorSets\CustomArmorSet;
+use Heisenburger69\BurgerCustomArmor\Main;
+use pocketmine\item\LeatherPants as PmLeatherPants;
 
-class LeatherCap extends PmLeatherCap
+class LeatherPants extends PmLeatherPants
 {
     /** @var float */
     protected $metaFloat = 0.0;
