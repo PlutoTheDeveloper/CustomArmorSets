@@ -129,7 +129,7 @@ class Main extends PluginBase
     private function registerCustomItems(): void
     {
         $items = [
-            new LeatherCap(),
+           new LeatherCap(),
             new LeatherTunic(),
             new LeatherPants(),
             new LeatherBoots(),
